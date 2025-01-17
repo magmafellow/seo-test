@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from 'react'
 import Options from '../components/options'
-import SeoBlockClient from '../components/seo-client'
 
 export default function Page() {
   const [textH1, setTextH1] = useState('Temporaryly magmas blog')
